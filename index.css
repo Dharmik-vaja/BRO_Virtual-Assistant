@@ -69,3 +69,53 @@ h1{
     box-shadow: 2px 2px 20px rgb(77, 130, 13), 2px 2px 60px rgba(255, 255, 255, 0.799);
     letter-spacing: 1.99px;
 }
+
+@media screen and (max-width: 767px) {
+
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 3, 39);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    #logo{
+        margin-top: 80px;
+        
+    }
+    #btn{
+        width: 70%;
+        background:linear-gradient(to left, white,rgb(11, 31, 1));
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #btn:hover{
+        box-shadow: 2px 2px 20px rgb(77, 130, 13), 2px 2px 60px rgba(255, 255, 255, 0.799);
+        letter-spacing: 1.99px;
+    }
+
+
+    h1{
+        color: rgb(77, 130, 13);
+        font-family: robo;
+        display:grid;
+    }
+    #name{
+        color: aliceblue;
+    }
+    #va{
+        color: rgba(177, 200, 220, 0.831);
+    }
+    
+    #voice{
+        width: 150px;
+        display: none;
+    } 
+}
